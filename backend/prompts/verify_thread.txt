@@ -1,0 +1,10 @@
+Below, in the user message, is a thread idea and one candidate's work story.
+Use ONLY the story text given. Do not invent facts. Scan the WHOLE story
+before answering.
+
+Decide: "yes" the story clearly shows the idea, "partly" it shows part of it,
+"no" it does not show it at all.
+If "yes" or "partly", quote the exact words from the story (copied exactly, not
+paraphrased) that is the single best evidence. If "no", leave the quote empty.
+
+Output JSON only, matching the given schema: {"verdict":"yes|partly|no","quote":""}

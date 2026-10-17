@@ -1,0 +1,42 @@
+[
+ {
+  "id": "U1",
+  "title": "Checkout rewrite",
+  "text": "The checkout module was a single massive activity with no clear ownership. Rebuilt it as an isolated feature module with its own navigation graph and a documented API surface, cutting the build time for checkout-only changes roughly in half."
+ },
+ {
+  "id": "U2",
+  "title": "Flaky test cleanup",
+  "text": "Instrumented UI tests failed intermittently because they raced the network layer instead of waiting on it. Introduced a shared idling resource that let the whole suite wait on real responses, and flaky reruns dropped from most days to a handful a month."
+ },
+ {
+  "id": "U3",
+  "title": "Startup profiling",
+  "text": "App cold start was slow and nobody had numbers to argue with. Traced the launch path with a profiler, found three blocking disk reads that did not need to happen before the first frame, and moved them off the critical path."
+ },
+ {
+  "id": "U4",
+  "title": "Onboarding talks",
+  "text": "New hires kept re-learning the same lessons the hard way. Started a recurring internal talk series where senior engineers walked through real incidents and the reasoning behind the fixes, open to the whole team."
+ },
+ {
+  "id": "U5",
+  "title": "Cross-team feature ownership",
+  "text": "Owned the Android side of three concurrent workstreams for different product managers: search ranking tweaks, a loyalty-points redemption flow, and delivery-address validation. Kept them on separate feature branches so none blocked the others."
+ },
+ {
+  "id": "U6",
+  "title": "Legacy module untangling",
+  "text": "A shared utilities module had become a dumping ground with circular dependencies between unrelated features. Split it into small, single-purpose modules with explicit boundaries, which made each one independently testable for the first time."
+ },
+ {
+  "id": "U7",
+  "title": "Mentoring juniors",
+  "text": "Paired weekly with two engineers who had just joined the team, reviewing their pull requests in depth and walking through debugging sessions together rather than leaving comments and moving on."
+ },
+ {
+  "id": "U8",
+  "title": "Reusable UI component",
+  "text": "Three different screens had each built their own version of a collapsible list section, with subtly different animation timing and bugs. Consolidated them into one shared component with a single, tested animation curve."
+ }
+]

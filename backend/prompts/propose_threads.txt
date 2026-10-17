@@ -1,0 +1,13 @@
+Below are statements, written by the user, about what two work stories have in
+common. Use ONLY the statements given in the user message. Do not invent facts.
+Never write finished prose that could appear in a letter -- an "idea" is a short
+label, not a sentence.
+
+Propose up to {n_threads} threads. Each needs:
+- idea: a short label (under 10 words) naming the recurring idea.
+- supporting_statement_ids: the statement ids given that support it.
+Only propose a thread if at least {min_support} statements genuinely share the idea.
+List every statement id that ends up in no thread under "unused".
+
+Output JSON only, matching the given schema:
+{"threads":[{"idea":"","supporting_statement_ids":[]}],"unused":[]}

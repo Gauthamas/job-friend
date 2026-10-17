@@ -1,0 +1,33 @@
+JAMES WRIGHT
+Remote (Lisbon, Portugal) · james.wright@example.com · 555-0110
+
+SUMMARY
+Freelance Android and backend developer. Contract and short-term engagements since 2015.
+
+SKILLS
+Kotlin, Java, Jetpack Compose, Coroutines, Room, FastAPI, Docker
+
+CONTRACT HISTORY (most recent first, engagements overlap)
+
+FitPulse GmbH — Client  |  Android Developer (contract)  |  Jan 2024 – Sep 2024
+  - Rebuilt workout tracking in Kotlin and Jetpack Compose.
+  - Added offline sync with Room and WorkManager.
+  - Cut crash rate from 2.1% to 0.4%.
+
+Lumen Ledger — Client  |  Backend Developer (contract)  |  Mar 2024 – Jun 2024
+  - Built a REST API in Python/FastAPI for invoice export.
+  - Wrote 150 tests, bringing coverage from 20% to 85%.
+
+Cobalt Retail — Client  |  Technical Consultant (one-off)  |  Nov 2023
+  - Audited the Android app and delivered a 12-page performance report.
+
+MapMate — Client  |  Android Developer (contract)  |  2022 – 2023
+  - Implemented turn-by-turn navigation UI using the Maps SDK.
+  - Led a Java-to-Kotlin conversion of 40,000 lines.
+
+Orbit Apps Ltd  |  Full-time Software Engineer  |  2015 – 2021
+  - Shipped 9 consumer apps to Google Play.
+  - Maintained a shared analytics library used in all apps.
+
+EDUCATION
+B.Sc. Computing, University of Leeds-Example, 2014

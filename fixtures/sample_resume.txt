@@ -1,0 +1,12 @@
+Priya Chattopadhyay
+Senior Mobile Engineer
+
+Parcelwise — Senior Android Engineer, Apr 2020 - Feb 2023
+- Led the Android rewrite of the courier tracking app used by 40,000 drivers
+- Cut cold-start time from 3.1s to 1.4s and set up a snapshot testing suite adopted by all four mobile teams
+- Built an offline sync layer so deliveries could be logged without network
+
+Loanlane — Android Engineer, Aug 2016 - Mar 2020
+- Built the borrower onboarding flow from scratch; 250,000+ installs
+- Raised crash-free sessions from 94% to 99.4% by tracing failure paths and fixing root causes
+- Coached two interns through their first production releases

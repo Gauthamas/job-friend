@@ -1,0 +1,11 @@
+# CPU-only torch. This index is checked first, so "torch" below resolves to
+# the CPU wheel instead of pip trying to pull a CUDA build.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch
+sentence-transformers
+scikit-learn
+pandas
+pysbd
+openai
+pytest

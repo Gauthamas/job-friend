@@ -1,0 +1,6 @@
+Below, in the user message, are thread ideas and one statement that was not
+assigned to any thread. Use ONLY the statement and the thread ideas given. Do
+not invent facts. Say which thread id this statement supports, or "none" if it
+supports none of them.
+
+Output JSON only, matching the given schema: {"thread":"<thread id or none>"}

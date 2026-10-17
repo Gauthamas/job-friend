@@ -1,0 +1,15 @@
+Senior Android Engineer
+Nilgiri Labs
+
+Responsibilities
+- Design offline-first data sync so the app keeps working on poor networks.
+- Resolve data conflicts between local edits and server state.
+- Keep background jobs running reliably so changes reach the server once the network returns.
+- Reduce app startup time and screen load latency.
+- Eliminate UI jank and dropped frames on low-end devices.
+- Build responsive layouts that work on tablets as well as phones.
+- Make the app accessible, including support for screen readers such as TalkBack.
+- Mentor junior engineers through structured code reviews.
+- Lead technical onboarding for new team members.
+- Maintain CI pipelines and release automation.
+- Own PCI-DSS compliance for in-app card payments.

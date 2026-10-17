@@ -1,0 +1,36 @@
+endpoint: http://localhost:1234/v1
+model: qwen/qwen3-8b
+embed_model: text-embedding-nomic-embed-text-v2-moe
+
+# 0 made stability meaningless with fixed pairs + human statements -- nothing
+# would vary between runs, so Jaccard would read 1.0 every time regardless
+# of whether the pipeline is actually stable.
+temperature: 0.2
+
+# Per call-type, not one scalar: propose_threads needs room for n_threads
+# threads' worth of JSON, or it truncates and gets recorded as a failure.
+max_tokens:
+  suggest_similarity: 1000
+  propose_threads: 4000
+  assign_unused: 2000
+  verify_thread: 2000
+
+request_timeout_s: 900
+
+runs: 3
+strategies: [fixed, random_cycle, embedding]
+pairs_per_unit: 2
+n_threads: 4
+min_support: 3
+
+# human | model | human_then_model
+statement_source: human
+
+seed: 42
+thinking: on
+out_dir: experiments/threads/out
+data_dir: experiments/threads/data
+
+# When set, strategies read their pairs from this file instead of
+# generating them; pairs_per_unit is ignored.
+pairs_file: experiments/threads/data/pair_sets.json

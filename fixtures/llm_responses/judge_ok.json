@@ -1,0 +1,1 @@
+{"req_id": "R3", "units": [{"id": "U12", "quote": "crash-rate fix", "why": "crash-rate fix, same action", "v": "match"}, {"id": "U27", "quote": "general refactoring", "why": "general refactoring, different action", "v": "weak"}], "reason": "U12: crash-rate fix, direct match; U27: general refactoring, related only"}

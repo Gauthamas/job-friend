@@ -1,0 +1,16 @@
+{
+ "U1-U2": "Following best practices often leads to good results. Here testing and MVP are best practices",
+ "U1-U4": "Following best practices whether be it in coding or team building gives good results",
+ "U1-U5": "Modularized, less boilerplate code is essential for a good codebase",
+ "U1-U6": "Follow good and stable architecture for generating a stable codebase and quality code",
+ "U2-U3": "Both replaced checking by hand with something automated, a UI test framework in one case and a script over the view models in the other, so the change could be verified quickly.",
+ "U2-U4": "When there is a pain point look at how it is resolved already in other teams",
+ "U2-U5": "Unit tests and UI tests (some form of automated testing) are important to give confidence to the developer, even in case of complex changes",
+ "U3-U6": "Changing architecture in an established codebase may require significant testing and sometimes these have to be innovative",
+ "U3-U8": "Make sure we use innovative techniques to reduce testing overhead.",
+ "U4-U7": "Always be there to mentor juniors via helping with coding or via knowledge-sharing sessions",
+ "U5-U6": "It is the job of a senior developer to make sure the app sticks to a good architecture even when complex changes are made",
+ "U5-U7": "While working on projects from various domains we might have to mentor juniors so that they will in future become good at these domains",
+ "U6-U7": "When working for a firm you need to make sure that it follows best practices and the team is mentored",
+ "U6-U8": "Always make sure we follow best practices and make code reusable for a good architecture"
+}
